@@ -1,4 +1,4 @@
-//1.khai báo du lieu de quan lı các nut thuot mot cay nhi phan tim kiem chua cac gia tri so nguyên
+//1.khai bÃ¡o du lieu de quan lÃ½ cÃ¡c nut thuot mot cay nhi phan tim kiem chua cac gia tri so nguyÃªn
 #include<stdio.h>
 #include<conio.h>
 struct nut{
@@ -86,7 +86,7 @@ void inmuci(Node *goc,int i,int muc)
 	  	inmuci(goc->right ,i,muc+1);
 	   }
 }
-//6. viet thu tuc sao chep cay nhi phan tim kiem co goc duoc tro boi bien GOC1 ,thanh cay có goc duoc tro bien GOC2
+//6. viet thu tuc sao chep cay nhi phan tim kiem co goc duoc tro boi bien GOC1 ,thanh cay cÃ³ goc duoc tro bien GOC2
 void saochep(Node *goc,Node *goc1)
 {
 	if(goc!=NULL)
@@ -96,7 +96,7 @@ void saochep(Node *goc,Node *goc1)
 		saochep(goc->right,goc1->right);
 	}
 }
-// xóa 1 node là lá 
+// xÃ³a 1 node lÃ  lÃ¡ 
 void xoanutla(Node *p, Node *q)
 {
 	if (q->right != NULL)
